@@ -1,0 +1,5 @@
+"My first ever big project" 
+So this was for my thesis defense in the third year. The code was kinda messy and unorganized so I'll try to explain how it works.
+Firstly, the core purpose of this project was to detect colors of an object based on the HSV color space. (with the support from some libraries like cv2, numpy, PIL)
+Secondly, it is important that you can handle the communication between python and PLC via the Modbus TCP method (using pymodbus)
+But, I felt like it's not really interesting enough so I just developed or built a GUI (graphical user interface) that allows users to interact with the machine and control it. I integrated in the GUI multiple buttons, lighting systems for warning the users if there could be sth wrong, and input labels that enables users to type in the numbers of products they wanna control (mainly tkinter, customtkinter)
